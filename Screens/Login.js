@@ -30,7 +30,7 @@ const Login = ({ navigation }) => {
 
   const handleLogin = async () => {
     if (!email || !password) {
-      Alert.alert('Please enter both email and password');
+      Alert.alert('Please enter both email and password ');
       return;
     }
 

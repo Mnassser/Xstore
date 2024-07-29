@@ -23,7 +23,7 @@ const Profile = ({ navigation }) => {
 
   if (!user) {
     return (
-      <View className="flex justify-center items-center m-[20px] w-screen">
+      <View className="flex justify-center items-center m-[20px] w-screen ">
         <Text>Loading...</Text>
       </View>
     );

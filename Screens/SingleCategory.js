@@ -10,7 +10,7 @@ const SingleCategory = ({route,navigation}) => {
   return (
     <ScrollView>
     
-    <Products key={'Products'} fetchUrl={`https://api.escuelajs.co/api/v1/categories/${id}/products`} navigation={navigation}/>
+    <Products key={'Products'} fetchUrl={`https://api.escuelajs.co/api/v1/categories/${id}/products`} navigation={navigation} />
     </ScrollView>
   )
 }

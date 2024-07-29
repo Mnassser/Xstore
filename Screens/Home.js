@@ -19,7 +19,7 @@ const Home = ({ navigation }) => {
 
         <View>
           <Text className='text-2xl mx-[10px]' >Products</Text>
-        <Products key={'Products'} fetchUrl={'https://api.escuelajs.co/api/v1/products?offset=0&limit=10'} navigation={navigation}/>
+        <Products key={'Products'} fetchUrl={'https://api.escuelajs.co/api/v1/products?offset=0&limit=15'} navigation={navigation}/>
         </View>
 
     </ScrollView>

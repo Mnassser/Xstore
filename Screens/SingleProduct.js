@@ -16,7 +16,7 @@ const SingleProduct = ({route}) => {
     };
 
   useEffect(()=>{
-  fetch(`https://api.escuelajs.co/api/v1/products/${id}`)
+  fetch(`https://api.escuelajs.co/api/v1/products/${id}` )
   .then(res =>res.json())
   .then(data=>{
 

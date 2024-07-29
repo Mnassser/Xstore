@@ -66,7 +66,7 @@ const Register = ({ navigation }) => {
 
         <TextInput
           placeholder="Password"
-          className="text-4xl text-white bg-gray-800 p-4 mb-4 rounded"
+          className="text-4xl text-white bg-gray-800 p-4 mb-4 rounded "
           placeholderTextColor="#ccc"
           secureTextEntry
           value={password}

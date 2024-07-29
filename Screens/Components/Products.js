@@ -32,7 +32,7 @@ const Products = ({ fetchUrl,navigation }) => {
 
   return (
     <View>
-      <View className='flex justify-center items-center flex-wrap flex-row gap-2'>
+      <View className='flex justify-center items-center flex-wrap flex-row gap-2 '>
         {data.map((item) => (
           <Product key={item.id} item={item} navigation={navigation} />
         ))}

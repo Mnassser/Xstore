@@ -46,7 +46,7 @@ const Settings =  ({navigation}) => {
             setUser(null);
             navigation.navigate('Login');
           }}>
-            <Text className='text-3xl hover:bg-black bg-slate-700 text-white w-screen flex justify-center items-center'>
+            <Text className='text-3xl hover:bg-black bg-slate-700 text-white w-screen flex justify-center items-center '>
               Logout
             </Text>
           </TouchableOpacity>

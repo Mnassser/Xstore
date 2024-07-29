@@ -13,7 +13,7 @@ const Categories = ({fetchUrl,navigation}) => {
     fetch(fetchUrl)
       .then(response => {
         if (!response.ok) {
-          throw new Error('Network response was not ok');
+          throw new Error('Network response was not ook');
         }
         return response.json(); // تحويل الاستجابة إلى JSON
       })

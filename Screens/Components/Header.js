@@ -4,7 +4,7 @@ import React from 'react'
 const Header = () => {
   return (
     <View className='bg-slate-100'>
-      <Text className='text-xl border' >Xstore</Text>
+      <Text className='text-xl border' >Xstoree</Text>
     </View>
   )
 }

@@ -11,7 +11,7 @@ const Banner = () => {
         />
         <View className='bg-slate-900'>
         <Text className='absolute bottom-[10px] left-[10px] text-white text-4xl p-5 bg-[rgba(0,0,0,0.5)]'>
-          Sale
+          Salee
         </Text>
         </View>
       </View>

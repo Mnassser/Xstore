@@ -73,8 +73,6 @@ const App = () => {
 
 />
 
-
-
         <Stack.Screen name="Settings" component={Settings}
         
         options={({ navigation }) => ({
